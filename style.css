@@ -12,6 +12,11 @@ body {
     color: #333;
     margin: 0;
 }
+ p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #333;
+}
 
 h1, h2, h3 {
     font-family: 'Pacifico', cursive;
@@ -30,6 +35,12 @@ header {
 
 .logo img {
     height: 50px; /* Adjust as needed */
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: var(--dark);
+}
+
 }
 
 nav ul {
@@ -67,6 +78,13 @@ nav a {
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #b9323d;
+    transform: translateY(-2px);
 }
 
 /* Menu Items (Keep your grid but enhance it) */
@@ -188,6 +206,9 @@ blockquote {
   color: #5c3a1e;
   font-weight: 600;
 }
+ , nav a, .nav-links li a, form button {
+    font-family: 'Open Sans', sans-serif;
+}
 
 .hamburger {
   display: none;
@@ -278,4 +299,41 @@ form button {
 form button:hover {
   background-color: #c9302c;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--dark);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+/* Section Styling */
+.section {
+    padding: 4rem 2rem;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #3e2723; /* You can adjust color to match your theme */
+}
+
+/* Alternate background for even-numbered sections */
+.section:nth-of-type(even) {
+    background-color: #fffaf3;
+}
+
+/* Responsive Images (if not already present) */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 
