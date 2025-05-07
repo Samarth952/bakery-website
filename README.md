@@ -1,3 +1,4 @@
+![Sweet Treats Banner](banner.png)
 # 🍰 Sweet Treats Bakery Website
 
 Welcome to the official repository for **Sweet Treats Bakery** — a simple and elegant website created for a local bakery business to establish its online presence.
@@ -67,6 +68,6 @@ This project was completed with assistance from ChatGPT for:
 
 ---
 
-## 📷 Screenshots (Optional)
+## 📸 Screenshots
 
-You may add screenshots here:
+![Homepage Screenshot](screenshot.png)
