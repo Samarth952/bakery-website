@@ -1,109 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XYZ Bakery</title>
+    <title>Bakery Website</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Navbar -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">XYZ Bakery</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span><span></span><span></span>
-            </div>
-        </nav>
-    </header>
+<!-- Navbar -->
+<header>
+  <nav class="navbar">
+    <div class="logo">My Bakery</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+</header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Freshly Baked Delights, Crafted with Love</h1>
-            <p>Family-owned bakery bringing you quality treats every day</p>
-            <a href="#menu" class="btn">View Our Menu</a>
+<!-- Hero Section -->
+<section id="home">
+    <div class="hero-content">
+        <h1>Welcome to Our Bakery</h1>
+        <p>Delicious baked goods made fresh every day</p>
+        <a href="#menu" class="btn">View Our Menu</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are a family-owned bakery offering a variety of delicious baked goods made with love and the finest ingredients. Our mission is to bring fresh and quality treats to the community every day.</p>
+    <blockquote>"The best sourdough in town!" — Local Food Magazine</blockquote>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+        <div class="menu-item">
+            <img src="images/bread.jpg" alt="Sourdough Bread">
+            <h3>Classic Sourdough</h3>
+            <p>Freshly baked daily, perfect for breakfast or sandwiches.</p>
+            <span class="price">$6.50</span>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2>About Us</h2>
-        <p>We are a family-owned bakery offering a variety of delicious baked goods made with love and the finest ingredients. Our mission is to bring fresh and quality treats to the community every day.</p>
-        <blockquote>"The best sourdough in town!" — Local Food Magazine</blockquote>
-    </section>
-
-    <!-- Menu Section -->
-    <section id="menu" class="section">
-        <h2>Our Menu</h2>
-        <div class="menu-items">
-            <div class="menu-item">
-                <img src="images/bread.jpg" alt="Sourdough Bread">
-                <h3>Classic Sourdough</h3>
-                <p>Freshly baked daily <span class="price">$6.50</span></p>
-            </div>
-            <div class="menu-item">
-                <img src="images/cake.jpg" alt="Chocolate Cake">
-                <h3>Chocolate Fudge Cake</h3>
-                <p>Rich and decadent <span class="price">$5.50/slice</span></p>
-            </div>
-            <div class="menu-item">
-                <img src="images/pastry.jpg" alt="Croissant">
-                <h3>Butter Croissant</h3>
-                <p>Flaky and golden <span class="price">$4.00</span></p>
-            </div>
+        <div class="menu-item">
+            <img src="images/cake.jpg" alt="Chocolate Cake">
+            <h3>Chocolate Fudge Cake</h3>
+            <p>Rich and decadent chocolate cake, a treat for all chocolate lovers.</p>
+            <span class="price">$5.50/slice</span>
         </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="section">
-        <h2>Gallery</h2>
-        <div class="gallery-grid">
-            <img src="images/image1.jpg" alt="Bakery interior">
-            <img src="images/image2.jpg" alt="Fresh bread">
-            <img src="images/image3.jpg" alt="Pastry close-up">
+        <div class="menu-item">
+            <img src="images/pastry.jpg" alt="Croissant">
+            <h3>Butter Croissant</h3>
+            <p>Flaky, buttery, and golden – perfect for a morning snack.</p>
+            <span class="price">$4.00</span>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2>Contact Us</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+<!-- Gallery Section -->
+<section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+        <img src="images/image1.jpg" alt="Bakery interior">
+        <img src="images/image2.jpg" alt="Fresh bread">
+        <img src="images/image3.jpg" alt="Pastry close-up">
+    </div>
+</section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 XYZ Bakery. All rights reserved.</p>
-    </footer>
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
 
-    <!-- Hamburger Script -->
-    <script>
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 My Bakery. All rights reserved.</p>
+  <div class="social-icons">
+    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+  </div>
+  <a href="#home" class="back-to-top">Back to Top</a>
+</footer>
 
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
-    </script>
+<!-- Scripts -->
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
 
 </body>
 </html>
-
