@@ -12,24 +12,24 @@
 
 <!-- Navbar -->
 <header>
-  <nav class="navbar">
-    <div class="logo">My Bakery</div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#menu">Menu</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <div class="hamburger">
-      <span></span><span></span><span></span>
-    </div>
-  </nav>
+    <nav class="navbar">
+        <div class="logo">Bakery Delight</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
 </header>
 
 <!-- Hero Section -->
 <section id="home">
     <div class="hero-content">
-        <h1>Welcome to Our Bakery</h1>
+        <h1>Welcome to Bakery Delight</h1>
         <p>Delicious baked goods made fresh every day</p>
         <a href="#menu" class="btn">View Our Menu</a>
     </div>
@@ -46,23 +46,35 @@
 <section id="menu" class="section">
     <h2>Our Menu</h2>
     <div class="menu-items">
-        <div class="menu-item">
-            <img src="images/bread.jpg" alt="Sourdough Bread">
+        <div class="item">
+            <img src="images/bread.jpg" alt="Classic Sourdough">
             <h3>Classic Sourdough</h3>
-            <p>Freshly baked daily, perfect for breakfast or sandwiches.</p>
-            <span class="price">$6.50</span>
+            <p>Freshly baked daily <span class="price">$6.50</span></p>
         </div>
-        <div class="menu-item">
-            <img src="images/cake.jpg" alt="Chocolate Cake">
+        <div class="item">
+            <img src="images/cake.jpg" alt="Chocolate Fudge Cake">
             <h3>Chocolate Fudge Cake</h3>
-            <p>Rich and decadent chocolate cake, a treat for all chocolate lovers.</p>
-            <span class="price">$5.50/slice</span>
+            <p>Rich and decadent <span class="price">$5.50/slice</span></p>
         </div>
-        <div class="menu-item">
-            <img src="images/pastry.jpg" alt="Croissant">
+        <div class="item">
+            <img src="images/pastry.jpg" alt="Butter Croissant">
             <h3>Butter Croissant</h3>
-            <p>Flaky, buttery, and golden – perfect for a morning snack.</p>
-            <span class="price">$4.00</span>
+            <p>Flaky and golden <span class="price">$4.00</span></p>
+        </div>
+        <div class="item">
+            <img src="images/muffin.jpg" alt="Blueberry Muffin">
+            <h3>Blueberry Muffin</h3>
+            <p>Soft and fruity <span class="price">$3.50</span></p>
+        </div>
+        <div class="item">
+            <img src="images/cupcake.jpg" alt="Vanilla Cupcake">
+            <h3>Vanilla Cupcake</h3>
+            <p>Light and creamy <span class="price">$3.00</span></p>
+        </div>
+        <div class="item">
+            <img src="images/bagel.jpg" alt="Sesame Bagel">
+            <h3>Sesame Bagel</h3>
+            <p>Freshly boiled and baked <span class="price">$2.50</span></p>
         </div>
     </div>
 </section>
@@ -71,9 +83,9 @@
 <section id="gallery" class="section">
     <h2>Gallery</h2>
     <div class="gallery-grid">
-        <img src="images/image1.jpg" alt="Bakery interior">
-        <img src="images/image2.jpg" alt="Fresh bread">
-        <img src="images/image3.jpg" alt="Pastry close-up">
+        <img src="images/image1.jpg" alt="Bakery interior" />
+        <img src="images/image2.jpg" alt="Fresh bread" />
+        <img src="images/image3.jpg" alt="Pastry close-up" />
     </div>
 </section>
 
@@ -90,22 +102,17 @@
 
 <!-- Footer -->
 <footer>
-  <p>&copy; 2025 My Bakery. All rights reserved.</p>
-  <div class="social-icons">
-    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-  </div>
-  <a href="#home" class="back-to-top">Back to Top</a>
+    <p>&copy; 2025 Bakery Delight. All rights reserved.</p>
 </footer>
 
-<!-- Scripts -->
+<!-- Hamburger Script -->
 <script>
-  const hamburger = document.querySelector('.hamburger');
-  const navLinks = document.querySelector('.nav-links');
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
 
-  hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
 </script>
 
 </body>
